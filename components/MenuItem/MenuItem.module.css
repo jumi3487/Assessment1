@@ -1,0 +1,17 @@
+.list {
+    height: 30px;
+    margin-top: 10px;
+    margin-left: -30px;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    font-size: var(--medium-font);
+}
+
+.list:hover {
+    margin-left: -25px;
+    background: var(--blue);
+    color: var(--white);
+    padding-left: 20px;
+
+}
